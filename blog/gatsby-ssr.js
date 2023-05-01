@@ -1,0 +1,12 @@
+/**
+ * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/
+ */
+
+/**
+ * @type {import('gatsby').GatsbySSR['onRenderFootnote']}
+ */
+exports.onRenderFootnote = ({ setHtmlAttributes }) => {
+  setHtmlAttributes({ lang: `en` })
+}
